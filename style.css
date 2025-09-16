@@ -206,20 +206,27 @@ body {
     flex-wrap: nowrap;
 }
 
-.card-body-nutrition-table-header-cell {
+td.card-body-nutrition-table-header-cell {
     flex: 1 1 100%;
+    color: var(--brown-800);
+    font-weight: 700;
+
+}
+
+th.card-body-nutrition-table-header-cell {
+    flex: 1 1 100%;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 3.2rem;
     color: var(--stone-600);
-    padding-left: 3.2rem;
+
+
 }
 
 .card-body-nutrition-table-header-cell-divider {
-    margin: 1.2rem 1.2rem 1.2rem -3.2rem;
+    margin: 1.2rem 0;
 }
 
-.card-body-nutrition-table-header-cell:last-child {
-    color: var(--brown-800);
-    font-weight: 700;
-}
 
 @media (width >=616px) {
     .container {
