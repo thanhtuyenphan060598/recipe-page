@@ -207,9 +207,13 @@ body {
 }
 
 .card-body-nutrition-table-header-cell {
-    flex: 1 1 50%;
-    margin-left: 3.2rem;
+    flex: 1 1 100%;
     color: var(--stone-600);
+    padding-left: 3.2rem;
+}
+
+.card-body-nutrition-table-header-cell-divider {
+    margin: 1.2rem 1.2rem 1.2rem -3.2rem;
 }
 
 .card-body-nutrition-table-header-cell:last-child {
@@ -236,4 +240,5 @@ body {
         border-radius: 1.2rem;
 
     }
+
 }
